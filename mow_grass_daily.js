@@ -10,7 +10,6 @@ var mowGrass = function() {
 	}
 }
 var main = function() {
-    var tickCount = 0;
     var daySubscription = context.subscribe('interval.day', function() {
 		mowGrass();
     });
