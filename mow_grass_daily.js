@@ -4,7 +4,7 @@ var mowGrass = function() {
 	        var tile = map.getTile(x, y);
 	        for (var i = 0; i < tile.numElements; i++) {
 	            var element = tile.getElement(i);
-	            element.grassLength = 8;
+	            element.grassLength = 1;
 	        }
 	    }
 	}
